@@ -35,7 +35,7 @@ exclude: 'yes'
       }
     })
   
-  if (location.pathname == "molaliyski.com/Projects") {
+  if (window.location.pathname == "molaliyski.com/Projects") {
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
 
@@ -51,7 +51,7 @@ exclude: 'yes'
       }
     })
   
-  if (location.pathname == "molaliyski.com/Resume") {
+  if (window.location.pathname == "molaliyski.com/Resume") {
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
 
