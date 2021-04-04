@@ -6,6 +6,7 @@ exclude: 'yes'
 
   $(document).ready(function () {
     {% if site.disable_landing_page != true %}
+    let opened = false;
     $('a.blog-button').click(function (e) {
       if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
       currentWidth = $('.panel-cover').width()
@@ -21,7 +22,7 @@ exclude: 'yes'
     if (window.location.hash && window.location.hash == '#blog') {
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
-
+    
     $('a.projects-button').click(function (e) {
       if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
       currentWidth = $('.panel-cover').width()
@@ -34,7 +35,7 @@ exclude: 'yes'
       }
     })
   
-  if (window.location.hash && window.location.hash == '#projects') {
+  if (location.pathname == "molaliyski.com/Projects") {
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
 
@@ -50,7 +51,7 @@ exclude: 'yes'
       }
     })
   
-  if (window.location.hash && window.location.hash == '#resume') {
+  if (location.pathname == "molaliyski.com/Resume") {
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
 
