@@ -8,12 +8,12 @@ baseurl: '/'
 # disable_landing_page: true
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Vasil Molaliyski'
+  email: vasil@molaliyski.com
+  twitter_username: @talkinwhip@qoto.org
+  facebook_username: talkin-whip:matrix.org
+  github_username:  TalkinWhip
+  linkedin_username:  vasil-molaliyski
 
 defaults:
   -
