@@ -10,7 +10,7 @@ baseurl: '/'
 author:
   name: 'Vasil Molaliyski'
   email: vasil@molaliyski.com
-  twitter_username: @talkinwhip@qoto.org
+  twitter_username: talkinwhip #'@talkinwhip@qoto.org'
   facebook_username: talkin-whip:matrix.org
   github_username:  TalkinWhip
   linkedin_username:  vasil-molaliyski
