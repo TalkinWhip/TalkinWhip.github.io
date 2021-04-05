@@ -42,6 +42,7 @@ robots: noindex
     </div>
     <div id="post-list-blog">
       {% for post in paginator.posts %}
+        {% unless post.categories contains "Projects" or post.categories contains "Resume" %}
         <li>
           <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
           <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
@@ -53,6 +54,7 @@ robots: noindex
           </div>
           <hr class="post-list__divider">
         </li>
+        {%endunless%}
       {% endfor %}
     </div>
 

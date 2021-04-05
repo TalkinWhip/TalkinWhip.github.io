@@ -3,14 +3,14 @@
 sitemap:
 exclude: 'yes'
 ---
-
+//blog
   $(document).ready(function () {
     {% if site.disable_landing_page != true %}
     let opened = false;
     $('a.blog-button').click(function (e) {
       if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
         $('.post-list').load('/index.html #post-list-blog')
-        $('.content-wrapper').addClass('animated slideInRight')
+
       }
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
@@ -20,8 +20,8 @@ exclude: 'yes'
       } else {
         $('.panel-cover').css('max-width', currentWidth)
         $('.post-list').load('/index.html #post-list-blog')
+        $('.content-wrapper').addClass('animated slideInRight')
         $('.panel-cover').animate({ 'max-width': '450px', 'width': '33%' }, 400, swing = 'swing', function () { })
-        //$('.post-list').load('/index.html #post-list-resume')
       }
     })
 
@@ -29,11 +29,11 @@ exclude: 'yes'
       $('.post-list').load('/index.html #post-list-blog')
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
-    
+// projects
     $('a.projects-button').click(function (e) {
       if ($('.panel-cover').hasClass('panel-cover--collapsed')){
         $('.post-list').load('/index.html #post-list-projects')
-        $('.content-wrapper').addClass('animated slideInRight')
+
       } 
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
@@ -43,8 +43,8 @@ exclude: 'yes'
       } else {
         $('.panel-cover').css('max-width', currentWidth)
         $('.post-list').load('/index.html #post-list-projects')
+        $('.content-wrapper').addClass('animated slideInRight')
         $('.panel-cover').animate({'max-width': '450px', 'width': '33%'}, 400, swing = 'swing', function () {})
-        //$('.post-list').load('/index.html')
       }
     })
   
@@ -52,11 +52,11 @@ exclude: 'yes'
       $('.post-list').load('/index.html #post-list-projects')
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
-
+// resume
     $('a.resume-button').click(function (e) {
       if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
         $('.post-list').load('/index.html #post-list-resume')
-        $('.content-wrapper').addClass('animated slideInRight')
+
       }
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
@@ -66,6 +66,7 @@ exclude: 'yes'
       } else {
         $('.panel-cover').css('max-width', currentWidth)
         $('.post-list').load('/index.html #post-list-resume')
+        $('.content-wrapper').addClass('animated slideInRight')
         $('.panel-cover').animate({'max-width': '450px', 'width': '33%'}, 400, swing = 'swing', function () {})
         //$('.post-list').load('/index.html')
       }
