@@ -8,50 +8,71 @@ exclude: 'yes'
     {% if site.disable_landing_page != true %}
     let opened = false;
     $('a.blog-button').click(function (e) {
-      if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
+      if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
+        $('.post-list').load('/index.html #post-list-blog')
+        $('.content-wrapper').addClass('animated slideInRight')
+      }
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
         $('.panel-cover').addClass('panel-cover--collapsed')
+        $('.post-list').load('/index.html #post-list-blog')
         $('.content-wrapper').addClass('animated slideInRight')
       } else {
         $('.panel-cover').css('max-width', currentWidth)
-        $('.panel-cover').animate({ 'max-width': '530px', 'width': '40%' }, 400, swing = 'swing', function () { })
+        $('.post-list').load('/index.html #post-list-blog')
+        $('.panel-cover').animate({ 'max-width': '450px', 'width': '33%' }, 400, swing = 'swing', function () { })
+        //$('.post-list').load('/index.html #post-list-resume')
       }
     })
 
     if (window.location.hash && window.location.hash == '#blog') {
+      $('.post-list').load('/index.html #post-list-blog')
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
     
     $('a.projects-button').click(function (e) {
-      if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
+      if ($('.panel-cover').hasClass('panel-cover--collapsed')){
+        $('.post-list').load('/index.html #post-list-projects')
+        $('.content-wrapper').addClass('animated slideInRight')
+      } 
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
         $('.panel-cover').addClass('panel-cover--collapsed')
+        $('.post-list').load('/index.html #post-list-projects')
         $('.content-wrapper').addClass('animated slideInRight')
       } else {
         $('.panel-cover').css('max-width', currentWidth)
-        $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
+        $('.post-list').load('/index.html #post-list-projects')
+        $('.panel-cover').animate({'max-width': '450px', 'width': '33%'}, 400, swing = 'swing', function () {})
+        //$('.post-list').load('/index.html')
       }
     })
   
-  if (window.location.pathname == "molaliyski.com/Projects") {
+  if (window.location.hash && window.location.hash == '#Projects') {
+      $('.post-list').load('/index.html #post-list-projects')
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
 
     $('a.resume-button').click(function (e) {
-      if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
+      if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
+        $('.post-list').load('/index.html #post-list-resume')
+        $('.content-wrapper').addClass('animated slideInRight')
+      }
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
         $('.panel-cover').addClass('panel-cover--collapsed')
+        $('.post-list').load('/index.html #post-list-resume')
         $('.content-wrapper').addClass('animated slideInRight')
       } else {
         $('.panel-cover').css('max-width', currentWidth)
-        $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
+        $('.post-list').load('/index.html #post-list-resume')
+        $('.panel-cover').animate({'max-width': '450px', 'width': '33%'}, 400, swing = 'swing', function () {})
+        //$('.post-list').load('/index.html')
       }
     })
   
-  if (window.location.pathname == "molaliyski.com/Resume") {
+  if (window.location.hash && window.location.hash == '#Resume') {
+      $('.post-list').load('/index.html #post-list-resume')
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
 
