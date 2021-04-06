@@ -6,7 +6,7 @@ baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
-
+font_awesome: 'XXXXXXXXXX.js'
 author:
   name: 'Vasil Molaliyski'
   email: vasil@molaliyski.com
