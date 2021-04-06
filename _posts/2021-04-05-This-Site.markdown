@@ -2,8 +2,30 @@
 title:  "This Site"
 date:   2021-04-05 14:31:23
 categories: [Projects]
-tags:
+tags: jekyll
 ---
 
+How  *META*...
 
-Heyho, heyho
+The website uses jekyll (static site generator) with a little JS (ajax) to make it a bit more dynamic.
+I didn't want to put too much effort into it, so I went with a prebuilt theme for jekyll and github pages but I ended up putting quite a bit of effort into heavily modifiying the theme and writing an HTML resume. But it was fun, so it was worth it.  
+
+Modifications to the uno theme include: 
+
+
+- Adding a "Projects" page, which in itself is a blog, limited by category from the standard blog. (all posts with category "Projects" will be filtered out)
+- Adding a "Resume" page with a static html resume, no pagination. All blog posts with the category "Resume" (links inside the resume as posts) will be hidden. (Made best efforts to make static resume responsive, it's kind of hit and miss, but it's mostly to be used from a pc)
+- Smooth transition between all three pages (using AJAX - as an SPA).
+- Replacing FB/twitter with mastodon/matrix
+- Small visual touches
+
+Planned:
+
+- Removing Disqus for a more privacy respecting alternative (github comments? Staticman? hyvor?)
+- Making the pages "closable" (going back to the landing page)
+- Replacing icon font (as mastodon/matrix are currently using generic icons)
+- Perhaps having a timeline with github icons (see TZühlke) for the projects instead of posts. Post functionallity should ideally be kept for longer writhings
+- Making the theme separate from my personal website with installation instructions and cleaning up the config, when I'm done with all of those plans. 
+
+Copy to your heart's content:
+https://github.com/TalkinWhip/TalkinWhip.github.io

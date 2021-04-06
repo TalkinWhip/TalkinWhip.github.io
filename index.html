@@ -2,7 +2,29 @@
 layout: default
 robots: noindex
 ---
-
+<style type="text/css">
+  * { margin: 0; padding: 0; }
+  #main-post-list { font: 16px Helvetica, Sans-Serif; line-height: 24px; }
+  .clear { clear: both; }
+  #page-wrap { width: 100%; margin: 40px auto 60px; }
+  #pic { float: right; margin: -30px 0 0 0; }
+  .fn { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+  .h2resume { font-size: 20px; margin: 0 0 2px 0; position: relative; }
+  .spanresume  { display: block; margin-bottom: 15px; margin-top:5px; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+  .h2resume{ bottom: 0; right: 0; ; font-family: Georgia, Serif; font-size: 16px; color: #999; letter-spacing: -1px; font-size:24px; font-weight: bold; }
+  .presume { margin: 0 0 16px 35px; }
+  .whitespace {margin-bottom: 35px;}
+  .email { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+  .email:hover { border-bottom-style: solid; color: black; }
+  .ulresume { display: block; margin: 0 0 15px 45px; } <!--margin: 0 0 32px 17px;-->
+  #objective { width: 500px; float: left; }
+  #objective .presume { font-family: Georgia, Serif; font-style: italic; color: #666; }
+  dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: left; padding: 0 14px 0 0; width: 110px; float: left; height: 100px; border-right: 1px solid #999;  }
+  dd { width: 75%; float: right; }
+  dd.clear { float: none; margin: 0; height: 50px; }
+  dd.space {height: 25px;}
+  .liresume {margin-bottom: 0.5em; padding: 0;}
+</style>
 <div class="main-post-list">
 
   <ol class="post-list">
@@ -23,8 +45,147 @@ robots: noindex
         {% endif %}
       {% endfor %}
     </div>
+<!--RESUME-->
     <div id="post-list-resume">
-      {% for post in paginator.posts %}
+      <div id="page-wrap">
+    
+        <img src="images/profile.jpg" alt="A face made for facemasks" id="pic" height="210px"/>
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Vasil</h1>
+        
+            <p class="presume">
+                Cell: <span class="tel"><a class="email" href="https://molaliyski.com/2021/Cellphone-Cypher">[CENSORED]</a></span><br />
+                Email: <a class="email" href="mailto:vasil@molaliyski.com">vasil@molaliyski.com</a><br>
+                Site: <a class="email" href="https://molaliyski.com/#Resume">yes...</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p class="presume">
+              
+                {% assign var1 = site.time | date: '%y' | minus: 15 %}
+                I am a Bulgarian expat living, studying and working in Germany for the past {{ var1 }} years.
+                Interested in the intricate workings of systems. Be those technological or social.  
+                A person of many interests and as a result of this - a rather quick learner.  
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2 class="h2resume">International Information Systems M.Sc</h2>
+                <span class="spanresume">[2020-2022] FAU Erlangen-Nürnberg</span>
+                <p class="presume"><strong>Specialization:</strong> Enterprise Architecture<br />
+                   <strong>Thesis:</strong> tba</p>
+            </dd>
+            
+            <dd class="space"></dd>
+
+            <dd>
+              <h2 class="h2resume">Corporate Law LL.B.</h2>
+              <span class="spanresume">[2016-2020] FAU Erlangen-Nürnberg</span>
+              <p class="presume"><strong>Focus:</strong> Corporate Law, Tax Law, Competition Law<br />
+                 <strong>Thesis:</strong> <a class="email" href="https://molaliyski.com/2021/Bachelor-Thesis"> Microjobbing and German Tax Law</a></p>
+          </dd>
+          <dd class="space"></dd>
+          <dd>
+            <h2 class="h2resume">College</h2>
+            <span class=spanresume>[2015-2016] Studienkolleg Nordhausen</span>
+            <p class="presume"><strong>Focus:</strong> Humanities, but mostly language</p>
+           </dd>
+           <dd class="space"></dd>
+           <dd>
+              <h2 class="h2resume">Highschool (sort of)</h2>
+              <span class=spanresume>[2004-2014] State school of dance art</span>
+              <p class="presume"><strong>Focus:</strong> Classical Ballet</p>
+           </dd>
+
+            <dd class="clear"></dd>
+            <hr class="post-list__divider ">
+
+            <dt>Experience</dt>
+            <dd>
+                <h2 class="h2resume">Technical Sales</h2>
+                <span class="spanresume">[2018-2021] Siemens AG / Siemens Energy - Part Time</span>
+                <ul class="ulresume">
+                    <li style="margin-bottom: 0.5em">Data analysis and visualization and writing of small scripts in Python, VBA, PowerShell</li>
+                    <li style="margin-bottom: 0.5em">Worked in several large, international projects with our Commercial PM Team, forming an integral part of our financial project controlling</li>
+                    <li style="margin-bottom: 0.5em">Formed <a class="email" href="https://molaliyski.com/2021/Personalized-Microautomations">Personalized Microautomations</a> - a volunteer task-force at the company</li>
+                </ul>
+              </dd>
+              <dd class="space"></dd>
+              <dd>
+                <h2 class="h2resume">Event management - Student organization</h2>
+                <span class="spanresume">[2018-2019] Board of European Students of Technology eV</span>
+                <p class="presume"> Worked in a team of 5. I was responsible for the logistics of a summer course,
+                   where we brought 30 international students to Erlangen for 10 days. Organizing a course on AI in partnership
+                   with multiple companies in the region (Siemens, Schäffler, Adidas, Fraunhofer) and the university. </p>
+                
+            </dd>
+            <dd class="space"></dd>
+            <dd>
+              <h2 class="h2resume">A bunch of odd jobs</h2>
+              <span class="spanresume">[2014-2018] around the world</span>
+              <p class="presume"><strong>Including but not limited to:</strong><br />
+                Waiter, cashier, dance instructor, lifeguard ... </p>
+              
+            </dd>
+            
+            <dd class="clear"></dd>
+            <hr class="post-list__divider ">
+            <dt>Other Skills</dt>
+            <dd>
+                <h2 class="h2resume">Language Skills</h2>
+                <br>
+                <ul class="ulresume">
+                  <li style="margin-bottom: 0.5em"><strong>English:</strong> fluent.</li>
+                  <li style="margin-bottom: 0.5em"><strong>German:</strong> fluent.</li>
+                  <li style="margin-bottom: 0.5em"><strong>Bulgarian:</strong> fluent.</li>
+                  <li style="margin-bottom: 0.5em"><strong>Russian:</strong> conversational (B1).</li>
+                  <li style="margin-bottom: 0.5em"><strong>Chinese:</strong> basic (A1).</li>
+                </ul>
+            </dd>
+            <dd class="whitespace"></dd>
+            <dd>
+                <h2 class="h2resume">Computer skills</h2>
+                <ul class="ulresume">
+                  <li style="margin-bottom: 0.5em"><strong>Python:</strong> moslty scripting but also some Django, Data Science stack...</li>
+                  <li style="margin-bottom: 0.5em"><strong>C, Java, JS, HTML, CSS, bash:</strong> wherever, whenever needed.</li>
+                  <li style="margin-bottom: 0.5em"><strong>Docker, git, nginx:</strong> usage and some basic understanding</li>
+                  <li style="margin-bottom: 0.5em"><strong>MS Suite:</strong> I try to let Python and VBA do my bidding, whenever possible.</li>
+                  <li style="margin-bottom: 0.5em">and many more...</li>
+                </ul>
+            </dd>
+            
+            <dd class="clear"></dd>
+            <hr class="post-list__divider ">
+            <dt>Interests beyond work</dt>
+            <dd>
+              <ul class="ulresume">
+                <li style="margin-bottom: 0.5em"><a class="email" href="https://molaliyski.com/2021/University-Forum">Federation</a></li>
+                <li style="margin-bottom: 0.5em"><a class="email" href="https://molaliyski.com/tags/#privacy">Privacy, Degoogling</a></li>
+                <li style="margin-bottom: 0.5em"><a class="email" href="https://molaliyski.com/2021/Selfhosting">Selfhosting</a></li>
+                <li style="margin-bottom: 0.5em"><a class="email" href="https://molaliyski.com/2021/Watch-Collection">Wrist Watches</a></li>
+                <li style="margin-bottom: 0.5em"><a class="email" href="https://molaliyski.com/tags/#books">Literature</a></li>
+                <li style="margin-bottom: 0.5em"><a class="email" href="https://molaliyski.com/tags/#movies">Cinema</a></li>
+                <li style="margin-bottom: 0.5em">Languages (see above)</li>
+                <li style="margin-bottom: 0.5em">and many more ...</li>
+              </ul>
+            </dd>
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+      <!--{% for post in paginator.posts %}
         {%if post.categories contains 'Resume'%}
           <li>
             <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
@@ -38,7 +199,7 @@ robots: noindex
             <hr class="post-list__divider">
           </li>
         {% endif %}
-      {% endfor %}
+      {% endfor %}-->
     </div>
     <div id="post-list-blog">
       {% for post in paginator.posts %}
