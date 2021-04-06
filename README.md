@@ -12,7 +12,7 @@ Modifications include:
 
 Planned:
 
-- Removing Disqus for a more privacy respecting alternative (github comments? Staticman?)
+- Removing Disqus for a more privacy respecting alternative (github comments? Staticman? hyvor?)
 - Making the pages "closable" (going back to the landing page)
 - Replacing icon font (as mastodon/matrix are currently using generic icons)
 - Perhaps having a timeline with github icons (see TZühlke) for the projects instead of posts. Post functionallity should ideally be kept for longer writhings
