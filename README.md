@@ -14,7 +14,8 @@ Planned:
 
 - Removing Disqus for a more privacy respecting alternative (github comments? Staticman? hyvor?)
 - Making the pages "closable" (going back to the landing page)
-- Replacing icon font (as mastodon/matrix are currently using generic icons)
+- [x] Replacing icon font (as mastodon/matrix are currently using generic icons) (replaced with font awesome)
+- Decide if I should filter out Projects and Resume from the RSS feed. Liquid makes this easy but don't mind showing atleast projects there.
 - Perhaps having a timeline with github icons (see TZühlke) for the projects instead of posts. Post functionallity should ideally be kept for longer writhings
 - Making the theme separate from my personal website, when I'm done with all of those. 
 
