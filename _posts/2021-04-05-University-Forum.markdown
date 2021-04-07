@@ -29,4 +29,3 @@ If it catches on, the federation functionality allows for creating similar commu
 
 After spending days getting "my hands dirty" with Lemmy's code, I felt really involved with the project, even though I had very little idea of RUST and my efforts were mostly on configuration, deployment and community management.  
 Nevertheless I wanted to help, got very involved in the community, helped wherever I could - translations, donations, issues, user support, moderation. And am now trying to also contribute code towards the project. You've got to start somewhere, right?
-

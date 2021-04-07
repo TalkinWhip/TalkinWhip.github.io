@@ -12,7 +12,6 @@ I didn't want to put too much effort into it, so I went with a prebuilt theme fo
 
 Modifications to the uno theme include: 
 
-
 - Adding a "Projects" page, which in itself is a blog, limited by category from the standard blog. (all posts with category "Projects" will be filtered out)
 - Adding a "Resume" page with a static html resume, no pagination. All blog posts with the category "Resume" (links inside the resume as posts) will be hidden. (Made best efforts to make static resume responsive, it's kind of hit and miss, but it's mostly to be used from a pc)
 - Smooth transition between all three pages (using AJAX - as an SPA).
@@ -28,4 +27,4 @@ Planned:
 - Making the theme separate from my personal website with installation instructions and cleaning up the config, when I'm done with all of those plans. 
 
 Copy to your heart's content:
-https://github.com/TalkinWhip/TalkinWhip.github.io
+[GitHub - TalkinWhip/TalkinWhip.github.io: https://talkinwhip.github.io/](https://github.com/TalkinWhip/TalkinWhip.github.io)
