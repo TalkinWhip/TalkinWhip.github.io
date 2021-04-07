@@ -12,7 +12,7 @@ Modifications include:
 
 Planned:
 
-- Removing Disqus for a more privacy respecting alternative (github comments? Staticman? hyvor?)
+- [x] Removing Disqus for a more privacy respecting alternative (~~github comments?~~ Staticman~~? hyvor?~~)
 - Making the pages "closable" (going back to the landing page)
 - [x] Replacing icon font (as mastodon/matrix are currently using generic icons) (replaced with font awesome)
 - Decide if I should filter out Projects and Resume from the RSS feed. Liquid makes this easy but don't mind showing atleast projects there.
