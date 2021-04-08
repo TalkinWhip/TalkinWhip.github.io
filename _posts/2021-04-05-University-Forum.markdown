@@ -22,7 +22,8 @@ Lemmy, in version 0.9.9 as I hosted it seemed to be simple and clean but sleek(-
 # Hosting it
 
 I went with a docker solution. The UI is separated from the backend, so it can be modified and deployed separately. This is exactly what I did. Touched up the themeing lightly, added a noindex meta tag, since it was a closed community and deployed it on my own. It was a fun exploring this, as I've previously only been on the consuming end when it comes to docker.  
-I got a domain, set up nginx and an SSL certificate and [we were off to the races](https://fau-iis.space).   
+I got a domain, set up nginx and an SSL certificate and [we were off to the races](https://fau-iis.space).  
+![](https://molaliyski.com/images/fauiis1.png)  
 If it catches on, the federation functionality allows for creating similar communities for other programms in my university and interconnecting those. This is a bit of a pipedream though...
 
 # Beyond the university website

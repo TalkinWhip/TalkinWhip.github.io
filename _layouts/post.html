@@ -20,7 +20,7 @@ layout: default
 
 <!-- Comments -->
 {% if site.data.comments[page.slug] %}
-    <h3>
+    <h3 style="margin-left:10%">
     {% if site.data.comments[page.slug].size > 1 %}
       {{ site.data.comments[page.slug] | size }}
     {% endif %}
@@ -39,6 +39,7 @@ layout: default
         {% endif %}
       </label>
       <em class=individual-comment-text>{{ comment[1].date | date: "%B %d, %Y" }}</em>
+      <hr class="comment-divider">
       <p class=individual-comment-text>{{ comment[1].message | markdownify }}</p>
     </div>
     {% endfor %}
@@ -50,10 +51,10 @@ layout: default
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
       <input id="comment-name" name="fields[name]" type="text" placeholder="My name is...">
       <br>
-      <textarea id="comment-text" name="fields[message]" rows="6" placeholder="and I'd like to tell you, that..."></textarea></label>
+      <textarea id="comment-text" name="fields[message]" rows="4" placeholder="and I'd like to tell you, that..."></textarea></label>
       <br>
       <button class="comment-submit" type="submit"><i class="fas fa-paper-plane fa-2x" id="send-icon"></i></button>
       <br>
-      <small style="font-style: italic; font: 10px">Comments will appear after moderation.</small>
+      <small style="font-style: italic; font: 8px; margin-bottom:20px">Comments will appear after moderation.</small>
   </form>
 </div>
