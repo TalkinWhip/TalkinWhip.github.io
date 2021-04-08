@@ -1164,11 +1164,18 @@ hr {
 	border: none;
 	box-shadow: none; }
 
-.post img {
+.post {
 	max-width: 100%;
 	margin: 0 auto;
 	border-radius: 3px;
 	text-align: center; }
+
+img {
+	max-width: 80%;
+	margin: 0 auto;
+	border-radius: 3px;
+	text-align: center; }
+
 .post pre {
 	width: 95%; }
 .post hr {
