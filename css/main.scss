@@ -131,17 +131,18 @@ dd.space {height: 25px;}
   border-radius: 6px;
   border-radius: 6px;
   border: 1px solid lightgray;
+  margin-top: 30px;
   
   
 }
 
-#comment-submit {
+.comment-submit {
   margin-bottom: 10px;
   width:106%;
   clear:both;
   height: 60px;
   justify-self: center;
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
   background-color: lightskyblue;
   border: none;
   margin: 4px 2px;
@@ -149,12 +150,20 @@ dd.space {height: 25px;}
   
 }
 
-#comment-submit:hover{
+.comment-submit:hover{
   background-color: white;
-  border: 2px solid lightskyblue;
+  border: 1px solid lightskyblue;
 }
 textarea::placeholder {
   color: #BBB;
   padding: 15px;
 
+}
+
+#send-icon{
+  color:white;
+  vertical-align: center;
+}
+.comment-submit:hover #send-icon{
+  color:lightskyblue
 }

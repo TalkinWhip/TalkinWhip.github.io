@@ -50,9 +50,9 @@ layout: default
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
       <input id="comment-name" name="fields[name]" type="text" placeholder="My name is...">
       <br>
-      <textarea id="comment-text" name="fields[message]" rows="9" placeholder="and I'd like to tell you, that..."></textarea></label>
+      <textarea id="comment-text" name="fields[message]" rows="6" placeholder="and I'd like to tell you, that..."></textarea></label>
       <br>
-      <button id="comment-submit" type="submit"><img src="https://molaliyski.com/images/send-icon.svg" alt="Send comment"></button>
+      <button class="comment-submit" type="submit"><i class="fas fa-paper-plane fa-2x" id="send-icon"></i></button>
       <br>
       <small style="font-style: italic; font: 10px">Comments will appear after moderation.</small>
   </form>
