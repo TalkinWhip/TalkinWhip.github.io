@@ -3,6 +3,8 @@
 sitemap:
 exclude: 'yes'
 ---
+$('.post-list').load('/index.html #post-list-blog')
+
 //blog
   $(document).ready(function () {
     {% if site.disable_landing_page != true %}
