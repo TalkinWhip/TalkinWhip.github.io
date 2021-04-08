@@ -45,14 +45,12 @@ layout: default
   <form method="POST" action="{{ site.staticman_url }}">
    <input name="options[redirect]" type="hidden" value="https://molaliyski.com{{ page.url }}">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-      <label>Name</label>
-      <input name="fields[name]" type="text">
-      <label>E-mail (optional)</label>
-      <input name="fields[email]" type="email">
-      <label>Website (optional)</label>
-      <input name="fields[url]" type="url">
-      <label>Message</label>
-      <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
+      <label style="vertical-align:middle;">Your Name
+      <input style="width:65%; vertical-align:middle;margin-left: 17px;" name="fields[name]" type="text"></label>
+      <br>
+      <label style="vertical-align:middle;">Message 
+      <textarea style="width:70%; vertical-align:middle;margin-left: 33px;" name="fields[message]" rows="9"></textarea></label>
+      <br>
       <small>Comments will appear after moderation.</small>
       <button type="submit">Submit comment</button>
   </form>
