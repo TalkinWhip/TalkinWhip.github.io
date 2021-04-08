@@ -28,29 +28,32 @@ layout: default
     </h3>
   {% assign comments = site.data.comments[page.slug] | sort %}
     {% for comment in comments %}
+    <div class="individual-comment">
       <label>
         {% if comment[1].url %}
           <a href="{{ comment[1].url }}">
         {% endif %}
-        <strong>{{ comment[1].name }}</strong>
+        <strong class=individual-comment-text>{{ comment[1].name }}</strong>
         {% if comment[1].url %}
           </a>
         {% endif %}
       </label>
-      <em>{{ comment[1].date | date: "%B %d, %Y" }}</em>
-      <p>{{ comment[1].message | markdownify }}</p>
+      <em class=individual-comment-text>{{ comment[1].date | date: "%B %d, %Y" }}</em>
+      <p class=individual-comment-text>{{ comment[1].message | markdownify }}</p>
+    </div>
     {% endfor %}
 {% endif %}
 <!-- Comments Form -->
+<div class="comment-form">
   <form method="POST" action="{{ site.staticman_url }}">
    <input name="options[redirect]" type="hidden" value="https://molaliyski.com{{ page.url }}">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-      <label style="vertical-align:middle;">Your Name
-      <input style="width:65%; vertical-align:middle;margin-left: 17px;" name="fields[name]" type="text"></label>
+      <input id="comment-name" name="fields[name]" type="text" placeholder="My name is...">
       <br>
-      <label style="vertical-align:middle;">Message 
-      <textarea style="width:70%; vertical-align:middle;margin-left: 33px;" name="fields[message]" rows="9"></textarea></label>
+      <textarea id="comment-text" name="fields[message]" rows="9" placeholder="and I'd like to tell you, that..."></textarea></label>
       <br>
-      <small>Comments will appear after moderation.</small>
-      <button type="submit">Submit comment</button>
+      <button id="comment-submit" type="submit"><img src="https://molaliyski.com/images/send-icon.svg" alt="Send comment"></button>
+      <br>
+      <small style="font-style: italic; font: 10px">Comments will appear after moderation.</small>
   </form>
+</div>
