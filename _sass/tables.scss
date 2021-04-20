@@ -1,11 +1,13 @@
 table {
+	overflow-x:scroll;
+	display:block;
 	margin-bottom: 1.3em;
 	thead {
 		font-weight: bold;
 
 		th {
 			text-align: left;
-			border-bottom: 4px solid #888;
+			border-bottom: 4px solid #CCC;
 			font-weight: bold;
 			padding: 12px;
 			vertical-align: middle;

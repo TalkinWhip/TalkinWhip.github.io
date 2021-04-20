@@ -29,9 +29,9 @@ pre.highlight code,
 
 .categories a,
 .tags a {
-  border: 1px solid #e25440;
+  border: 1px solid lightskyblue;
   border-radius: 20px;
-  color: #e25440;
+  color: lightskyblue;
   display: inline-block;
   font-size: 12px;
   margin: 5px 0;
@@ -41,7 +41,7 @@ pre.highlight code,
 }
 
 .post-meta__tags {
-  font-size: 12px;
+  font-size: 0.7em;
   padding: 0 5px;
 }
 
@@ -64,18 +64,18 @@ pre.highlight code,
 .clear { clear: both; }
 #page-wrap { width: 100%; margin: 40px auto 60px; }
 #pic { float: right; margin: -30px 0 0 0; max-width:30%}
-.fn { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-.h2resume { font-size: 20px; margin: 0 0 2px 0; position: relative; }
-.spanresume  { display: block; margin-bottom: 15px; margin-top:5px; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-.h2resume{ bottom: 0; right: 0; ; font-family: Georgia, Serif; font-size: 16px; color: #999; letter-spacing: -1px; font-size:24px; font-weight: bold; }
+.fn { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -1px; border-bottom: 1px solid #BBB; }
+.h2resume { font-size: 1.1em; margin: 0 0 2px 0; position: relative; }
+.spanresume  { display: block; margin-bottom: 15px; margin-top:5px; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 1em; color: #BBB; font-weight: normal; }
+.h2resume{ bottom: 0; right: 0; ; font-family: Georgia, Serif; font-size: 1.4em; color: #BBB; letter-spacing: -1px; font-weight: bold; }
 .presume { margin: 0 0 16px 35px;}
 .whitespace {margin-bottom: 35px;}
-.email { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-.email:hover { border-bottom-style: solid; color: black; }
+.email { color: #888; text-decoration: none; border-bottom: 1px dotted #999; }
+.email:hover { border-bottom-style: solid; color:lightskyblue; }
 .ulresume { display: block; margin: 0 0 15px 45px; }
 #objective { width: 100%; float: left; }
-#objective .presume { font-family: Georgia, Serif; font-style: italic; color: #666; }
-dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: left; padding: 0 14px 0 0; width: 110px; float: left; height: 100px; border-right: 1px solid #999;  }
+#objective .presume { font-family: Georgia, Serif; font-style: italic; color: #CCC; }
+dt { font-style: italic; font-weight: bold; text-align: left; padding: 0 14px 0 0; width: 110px; float: left; height: 100px; border-right: 1px solid #BBB;  }
 dd { width: 75%; float: right; }
 dd.clear { float: none; margin: 0; height: 50px; }
 dd.space {height: 25px;}
@@ -86,7 +86,7 @@ dd.space {height: 25px;}
 .individual-comment {
   border:none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color:rgb(251, 251, 251);
+  background-color:#232b32;
   border-radius: 6px;
   padding: 1em;
   margin-bottom: 10px;
@@ -98,15 +98,15 @@ dd.space {height: 25px;}
 }
 
 .comment-submit:hover{
-  background-color: white;
+  
   border: 1px solid lightskyblue;
 }
 #comment-text::placeholder {
-  color: #AAA;
+  color: #CCC;
   
 }
   #comment-name::placeholder {
-    color: #AAA;
+    color: #CCC;
     text-align:center;
     
 }
@@ -117,45 +117,53 @@ dd.space {height: 25px;}
 .comment-submit:hover #send-icon{
   color:lightskyblue
 }
+
 .comment-form{
   margin-top:50px;
   width: 80%;
   margin-left:10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color:rgb(251, 251, 251);
+  background-color:#232b32;
   border-radius: 6px;
   padding: 1em;
   font-family: "Roboto Slab", serif;
-  color:#444;
+  color:#CCC;
   text-align:center;
 }
 #comment-name, #comment-text{
   font-size: 18px;
-  color:#444;
+  color:#CCC;
   margin-left:3%;
   margin-bottom:10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width:88%;
   border-radius: 6px;
-  border: 1px solid lightgray;
+  border: 1px solid #232b32;
   text-align:center;
+  background-color:#232b32
 }
   #comment-name {
     margin-top:20px;
     font-size: 18px;
-    color:#444;
+    color:#CCC;
     //margin-left:5%;
     margin-bottom:10px;
     width:85%;
     border-radius: 6px;
-    border: 1px solid lightgray;
+    border:none
+  }
+  #comment-name:focus {
+    border:1px solid lightskyblue;
+  }
+  #comment-text:focus {
+    border:1px solid lightskyblue;
   }
 #comment-text{
   padding:30px 10px 30px 10px;
 }
 .comment-submit{
   transition-duration: 0.2s;
-  background-color: lightskyblue;
+  background-color: #232b32;
   border: none;
   margin: 4px 2px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
