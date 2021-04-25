@@ -93,7 +93,7 @@ dd.space {height: 25px;}
   width:80%;
   justify-content: center;
   clear:both;
-  margin-left:10%;
+  margin-left:5%;
 
 }
 
@@ -121,7 +121,7 @@ dd.space {height: 25px;}
 .comment-form{
   margin-top:50px;
   width: 80%;
-  margin-left:10%;
+  margin-left:5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color:#232b32;
   border-radius: 6px;
@@ -140,7 +140,8 @@ dd.space {height: 25px;}
   border-radius: 6px;
   border: 1px solid #232b32;
   text-align:center;
-  background-color:#232b32
+  background-color:#232b32;
+  border:1px solid #232b32;
 }
   #comment-name {
     margin-top:20px;
@@ -150,7 +151,6 @@ dd.space {height: 25px;}
     margin-bottom:10px;
     width:85%;
     border-radius: 6px;
-    border:none
   }
   #comment-name:focus {
     border:1px solid lightskyblue;

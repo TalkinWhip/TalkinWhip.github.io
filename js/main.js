@@ -93,5 +93,13 @@ $('.post-list').load('/index.html #post-list-blog')
       $('.navigation-wrapper').toggleClass('visible')
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     })
+    $('.navigation-wrapper .projects-button').click(function () {
+      $('.navigation-wrapper').toggleClass('visible')
+      $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+    })
+    $('.navigation-wrapper .resume-button').click(function () {
+      $('.navigation-wrapper').toggleClass('visible')
+      $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+    })
 
   })

@@ -10,7 +10,7 @@ tags: [federation, selfhosting, foss]
 I strongly believe Google and Facebook have no place in a University or any other public institution.  
 As I started my somewhat-technical master, it was disappointing to find out that the students were organized around a loose connection of WhatsApp groups and a very stale Google Drive folder.   
 
-This was unacepptable and I started to look for something new.
+This was unacceptable to me and I started to look for something new.
 I didn't think a bunch of 20-somethings would be partial to something in the style of phpBB or vBulletin, so I went with something more modern - a link aggregator. Later on I added a Nextcloud shared folder and an Etherpad (to replace the stale GDrive) 
 
 Lemmy, in version 0.9.9 as I hosted it seemed to be simple and clean but sleek(-enough) and very functional. 
