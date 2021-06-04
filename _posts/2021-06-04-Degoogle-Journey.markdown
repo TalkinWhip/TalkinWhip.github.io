@@ -2,14 +2,14 @@
 title:  "My Degoogling Journey"
 date:   2021-06-04 14:31:23
 categories: [Professional]
-tags: degoogle, privacy
+tags: degoogle privacy
 ---
 
-The (Urban Dictinary)[https://www.urbandictionary.com/define.php?term=degoogle] defines Degoogling as "A word commonly used by inexperienced indian IT teachers when attempting to say "the google"" and this is definitely not the way it is meant in this blog post. 
+The [Urban Dictinary](https://www.urbandictionary.com/define.php?term=degoogle) defines Degoogling as "A word commonly used by inexperienced indian IT teachers when attempting to say "the google"" and this is definitely not the way it is meant in this blog post. 
 
 Unsurprisingly it is hard to find a definition of degoogling by using google, which (with the digital equivalent of a big, dumb smile) naively and inconspicuously suggests - "Did you mean **Google definition**, your friendly neighbourhood internet search machine?" I did not, thank you very much. So just use Duckduckgo if you care more about the topic (and I don't mean only for this particular query). 
 
-The goal of it all is to remove Google as far away from your life as possible. Unfortunately, by now I've realised that unless you are a total hermit, it's impossible to completely escape their clutches. Not using any of the google products directly, avoiding AMP links, having (your browser set up properly)[https://www.privacytools.io/browsers/#browser] and Degoogling your Android are a good start though. 
+The goal of it all is to remove Google as far away from your life as possible. Unfortunately, by now I've realised that unless you are a total hermit, it's impossible to completely escape their clutches. Not using any of the google products directly, avoiding AMP links, having [your browser set up properly](https://www.privacytools.io/browsers/#browser) and Degoogling your Android are a good start though. 
 
 ## Where I started 
 
@@ -21,7 +21,7 @@ Now, 2-3 years later, the only google product I use is still the Google Pixel. B
 
 It's hard to really remember what triggered the change and it was probably gradual. Gradually I realized that being so dependant on one vendor with questionable track-record was probably not the best idea. Gradually I learned more about data privacy and security. So gradually I started eliminating google products one by one. 
 
-The first to fall was GDrive. I replaced it with Nextcloud (of course). First by using a provider. My choice was Disroot. But eventually, wanting more space that I could pay for and not being scared by a bit of a technical challenge, I ended up (self-hosting it on my RasPi)[https://molaliyski.com/2021/Selfhosting/]. 
+The first to fall was GDrive. I replaced it with Nextcloud (of course). First by using a provider. My choice was Disroot. But eventually, wanting more space that I could pay for and not being scared by a bit of a technical challenge, I ended up [self-hosting it on my RasPi](https://molaliyski.com/2021/Selfhosting/). 
 
 Gmail got replaced by Tutanota for more important stuff and the Disroot one I got with my Nextcloud subscription was used for newsletters and other stuff I probably won't read. Also, by the way, RSS is cool. Use it.
 
