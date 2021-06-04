@@ -10,7 +10,12 @@ How  *META*...
 At some point in every young man's life comes as time that he wants to leave the cesspool that is facebook/linkedin/etc. or at least minimize it's usage. To do so but also balance it out with not becoming a total hermit - I decided to make this site. A pretty loose collection of thoughts, information about myself and a way to keep in touch with people not falling off the radar.
 
 The website uses jekyll (static site generator) with a little JS (ajax) to make it a bit more dynamic.
-I didn't want to put too much effort into it, so I went with a prebuilt theme for jekyll and github pages but I ended up putting quite a bit of effort into heavily modifiying the theme and writing an HTML resume. But it was fun, so it was worth it.  
+I didn't want to put too much effort into it, so I went with a prebuilt theme for jekyll and github pages but I ended up putting quite a bit of effort into heavily modifying the theme and writing an HTML resume. But it was fun, so it was worth it.
+I also added a comment section with the help of Staticman. It's pretty wild how this works - you host it on Heroku or something and it watches for POST requests directed at it. If it receives one - it will actually edit the html of the page to add the comment and open a github pull request for me to approve. 
+
+It's pretty wild.  
+
+Those can be also approved automatically but judging by the spam I've been getting from some dude named Eric this wouldn't be a great idea. 
 
 Modifications to the uno theme include: 
 

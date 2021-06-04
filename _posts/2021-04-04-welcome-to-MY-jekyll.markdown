@@ -1,12 +1,15 @@
 ---
-title:  "Welcome to Jekyll!"
-date:   2016-01-08 15:04:23
+title:  "Welcome to MY Jekyll!"
+date:   2021-04-04 15:04:23
 categories: [jekyll]
 tags: [jekyll]
 ---
 
-This is the default post added by jekyll when you create your site. You are meant to delete it but I won't for now - for testing and posterity purposes.  
+This is the default post added by jekyll when you create your site. You are meant to delete it but I won't for now - for testing and posterity purposes.
 
+Do not get spooked by the huge amount of strange people in the comments. It's just me testing out the comment section. So there's nothing to worry about, right? RIGHT?  
+
+Also if you are more interested in the inner-workings of this site. Go here: https://molaliyski.com/2021/This-Site/
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
