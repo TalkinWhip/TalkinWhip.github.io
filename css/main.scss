@@ -161,7 +161,7 @@ dd.space {height: 25px;}
 #comment-text{
   padding:30px 10px 30px 10px;
 }
-.comment-submit{
+.comment-submit {
   transition-duration: 0.2s;
   background-color: #232b32;
   border: none;
@@ -172,4 +172,20 @@ dd.space {height: 25px;}
   width:70%;
   height:60px;
   margin-left:3%;
+}
+
+.btnHired{
+  float: right;
+  background-color: #232b32;
+  color:lightskyblue;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.btnHired:hover{
+  color: #232b32;
+  background-color:lightskyblue;
+  border: 1px solid #232b32;
 }

@@ -7,7 +7,7 @@ tags: jekyll
 
 How  *META*...
 
-At some point in every young man's life comes as time that he wants to leave the cesspool that is facebook/linkedin/etc. or at least minimize it's usage. To do so but also balance it out with not becoming a total hermit - I decided to make this site. A pretty loose collection of thoughts, information about myself and a way to keep in touch with people not falling off the radar.
+At some point in every young man's life comes a time when he wants to leave the cesspool that is facebook/linkedin/etc. or at least minimize it's usage. To do so but also balance it out with not becoming a total hermit - I decided to make this site. A pretty loose collection of thoughts, information about myself and a way to keep in touch with people not falling off the radar.
 
 The website uses jekyll (static site generator) with a little JS (ajax) to make it a bit more dynamic.
 I didn't want to put too much effort into it, so I went with a prebuilt theme for jekyll and github pages but I ended up putting quite a bit of effort into heavily modifying the theme and writing an HTML resume. But it was fun, so it was worth it.
@@ -23,7 +23,8 @@ Modifications to the uno theme include:
 - Adding a "Resume" page with a static html resume. All blog posts with the category "Resume" will be hidden. (Made best efforts to make static resume responsive)
 - Smooth transition between all three pages (using AJAX - as an SPA).
 - Replacing FB/twitter with mastodon/matrix
-- Visual touches, including dark theme 
+- Visual touches, including dark theme
+- A dumb disclaimer alert in the footer. 
 
 Planned:
 
@@ -32,6 +33,7 @@ Planned:
 - [x] Replacing icon font (as mastodon/matrix are currently using generic icons) (replaced with font awesome)
 - Decide if I should filter out Projects and Resume from the RSS feed. Liquid makes this easy but don't mind showing atleast projects there.
 - Perhaps having a timeline with github icons (see TZühlke) for the projects instead of posts. Post functionallity should ideally be kept for longer writhings
+- Previous/ Next post (had some issues with liquid in this regards).
 - Making the theme separate from my personal website, when I'm done with all of those. 
 
 Copy to your heart's content:

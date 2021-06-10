@@ -103,3 +103,22 @@ $('.post-list').load('/index.html #post-list-blog')
     })
 
   })
+
+  // Employer Alert
+
+if (sessionStorage.getItem('hiddenAlert')=="true")
+{
+  $(".alert").hide();
+}
+
+$('.btnHired').click(()=>{
+    if (sessionStorage.getItem('hiddenAlert')!="true")
+      {
+      $(".alert").hide();
+      sessionStorage.setItem('hiddenAlert', 'true');
+      }
+    else{
+
+    }
+})
+
