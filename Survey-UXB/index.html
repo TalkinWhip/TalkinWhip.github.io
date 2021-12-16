@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang='en-gb'>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title lang='en-gb'>Welcome to MY Jekyll!</title>
+  <meta name="description" content="This is the default post added by jekyll when you create your site. You are meant to delete it but I won’t for now - for testing and posterity purposes.
+
+">
+  <meta name="author" content="Vasil Molaliyski">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Welcome to MY Jekyll!">
+  <meta name="twitter:description" content="This is the default post added by jekyll when you create your site. You are meant to delete it but I won’t for now - for testing and posterity purposes.
+
+">
+  
+  <meta name="twitter:creator" content="talkinwhip">
+  
+  <meta name="twitter:image" content="/images/favicons/android-chrome-192x192.png" />
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="UXB-Servey-WineTasting">
+  <meta property="og:description" content="Rank options by dragging and dropping.">
+  <meta property="og:image" content="/images/favicons/android-chrome-192x192.png" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicons/manifest.json">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-TileImage" content="/images/favicons/mstile-150x150.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="https://kit.fontawesome.com/53d7a3a62b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css?1639657829282133373">
+  
+  <link rel="canonical" href="http://localhost:4000/2021/welcome-to-MY-jekyll/">
+  <link rel="alternate" type="application/rss+xml" title="Vasil Molaliyski" href="/feed.xml">
+
+  <script src="https://unpkg.com/knockout@3.5.1/build/output/knockout-latest.js"></script>
+  <script src="https://unpkg.com/survey-knockout@1.9.2/survey.ko.min.js"></script>
+  <link href="https://unpkg.com/survey-core@1.9.2/modern.min.css" type="text/css" rel="stylesheet"/>
+
+</head>
+
+
+  <body>
+    <span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+<header class="panel-cover "
+  style="background-image: url(/images/cover.jpg)">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+      <div class="panel-main__content">
+        <a href="/" title="link to home of Vasil Molaliyski">
+          <img src="/images/profile.jpg" class="user-image" alt="My Profile Photo">
+          <h1 class="panel-cover__title panel-title">Vasil Molaliyski</h1>
+        </a>
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description">and his little corner on the internet.</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="link to Vasil Molaliyski Musings"
+                  class="blog-button">Musings</a></li>
+              <li class="navigation__item"><a href="/#Projects" title="link to Vasil Molaliyski Projects"
+                  class="projects-button">Projects</a></li>
+              <li class="navigation__item"><a href="/#Resume" title="link to Vasil Molaliyski Resume"
+                  class="resume-button">Resume</a></li>
+            </ul>
+          </nav>
+          <br>
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+
+
+            
+              <!-- Matrix -->
+              <li class="navigation__item">
+                <a href="https://matrix.to/#/@talkin-whip:matrix.org"
+                  title="talkin-whip:matrix.org on Matrix" target="_blank">
+                  <i class="far fa-comment-dots"></i>
+                  <span class="label">Matrix</span>
+                </a>
+              </li>
+                            
+
+              
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:vasil@molaliyski.com" title="Email vasil@molaliyski.com" target="_blank">
+                  <i class="fas fa-envelope"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+              
+
+
+              
+              <!-- Mastodon -->
+              <li class="navigation__item">
+                <a href="http://qoto.org/@talkinwhip"
+                  title="@talkinwhip on Mastodon" target="_blank">
+                  <i class="fab fa-mastodon"></i>
+                  <span class="label">Mastodon</span>
+                </a>
+              </li>
+              
+
+              
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/vasil-molaliyski"
+                  title="vasil-molaliyski on LinkedIn" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+              
+
+              
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/TalkinWhip"
+                  title="TalkinWhip on GitHub" target="_blank">
+                  <i class="fab fa-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+              
+
+              <!-- RSS -->
+              <li class="navigation__item">
+                <a href="/feed.xml" title="Subscribe" target="_blank">
+                  <i class="fas fa-rss"></i>
+                  <span class="label">RSS</span>
+                </a>
+              </li>
+
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+
+
+</header>
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2021-04-04 17:04" class="post-meta__date date">16 Dec 2021</time>
+      
+      &#8226; <span class="post-meta__tags">on <a href="/tags/#jekyll">jekyll</a></span>
+      
+    </div>
+    <h1 class="post-title">Survey-UXB!</h1>
+  </header>
+
+  <section class="post">
+
+    <div id="surveyElement" style="display:inline-block;width:140%;"></div>
+    <div id="surveyResult"></div>
+
+
+  </section>
+  
+
+</article>
+
+<!-- Comments -->
+
+<!-- Comments Form -->
+<div class="comment-form">
+  <form method="POST" action="https://api.staticman.net/v3/entry/github/TalkinWhip/TalkinWhip.github.io/main/comments">
+   <input name="options[redirect]" type="hidden" value="https://molaliyski.com/Survey-UXB/">
+    <input name="options[slug]" type="hidden" value="Survey-UXB">
+      <input id="comment-name" name="fields[name]" type="text" placeholder="My name is...">
+      <br>
+      <textarea id="comment-text" name="fields[message]" rows="4" placeholder="and I'd like to tell you, that..."></textarea></label>
+      <br>
+      <button class="comment-submit" type="submit"><i class="fas fa-paper-plane fa-2x" id="send-icon"></i></button>
+      <br>
+      <small style="font-style: italic; font-size: 14px; margin-bottom:20px">Comments support Markdown and will appear after moderation.</small>
+  </form>
+</div>
+      </div>
+
+      <footer class="footer">
+  <span class="footer__copyright">&copy; 2021 Vasil Molaliyski. Some rights reserved.
+    <a href=https://github.com/TalkinWhip/TalkinWhip.github.io style="float: right">MIT</a> 
+    <a href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en style="float: right; margin-right:10px;">CC BY-NC-SA 4.0</a>
+  </span>
+  <!--Employer alert-->
+
+  <div class="alert alert-info" role="alert">
+    Dear future employer, despite an abundance of evidence to the contrary, I am not depressed and am blessed with
+    at least moderate mental health. It's just this weird sense of humor of mine.
+    <button class="btnHired" data-dismiss="alert">You're Hired!</button>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js?1639657829282133373"></script>
+<script>
+
+Survey
+    .StylesManager
+    .applyTheme("modern");
+
+var json = {
+    "pages": [
+        {
+            "name": "page1",
+            "elements": [
+                {
+                    "type": "ranking",
+                    "name": "alexa-features",
+                    "title": "Please rank the following Alexa features in order of importance for you (most useful to least useful)",
+                    "isRequired": true,
+                    "choices": [
+                        "a) Presenting the Alexa Skill abilities and the wine-tasting process (Anmoderation)",
+                        "b) Presenting the wine region (e.g. Frankonia)",
+                        "c) Presenting the currently opened wine ('Alexa, tell me about the Fürst Spätburgunder')",
+                        "d) Quiz Questions upon request ('Alexa, quiz me')",
+                        "e) Wine-related facts upon request ('Alexa, tell me more about the wine / the region')",
+                        "f) Wine-related jokes upon request ('Alexa, tell me a joke')",
+                        "g) Remember a list of my favorite wines",
+                        "h) Setting region/wine-specific music or background sounds.",
+                        "i) Recommendations to improve the environment (dim the lights, etc.)",
+
+                    ]
+                }
+            ]
+        }
+            ]
+        };
+
+window.survey = new Survey.Model(json);
+
+survey
+    .onComplete
+    .add(function (sender) {
+        document
+            .querySelector('#surveyResult')
+            .textContent = "Please enter your name or initial below and send the results";
+        $("#comment-text")
+            .val("Result JSON:\n" + JSON.stringify(sender.data, null, 3));
+    });
+
+survey.render("surveyElement");
+
+
+</script>
+
+
+    </div>
+  </body>
+</html>

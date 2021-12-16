@@ -11,7 +11,6 @@ Do not get spooked by the huge amount of strange people in the comments. It's ju
 
 Also if you are more interested in the inner-workings of this site. Go here: https://molaliyski.com/2021/This-Site/
 
-
 Don't read any further: 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -20,7 +19,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-``` ruby
+```ruby
 def print_hi(name)
   puts "Hi, #{name}"
 end
