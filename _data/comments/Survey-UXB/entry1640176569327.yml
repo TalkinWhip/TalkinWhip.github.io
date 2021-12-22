@@ -1,0 +1,4 @@
+_id: bd2b27d0-6323-11ec-b7c4-b35fde9c016b
+name: G
+message: "Result JSON:\r\n{\r\n   \"alexa-features\": [\r\n      \"a) Presenting the Alexa Skill abilities and the wine-tasting process (Anmoderation)\",\r\n      \"c) Presenting the currently opened wine ('Alexa, tell me about the Fürst Spätburgunder')\",\r\n      \"g) Remember a list of my favorite wines\",\r\n      \"d) Quiz Questions upon request ('Alexa, quiz me')\",\r\n      \"b) Presenting the wine region (e.g. Frankonia)\",\r\n      \"e) Wine-related facts upon request ('Alexa, tell me more about the wine / the region')\",\r\n      \"h) Setting region/wine-specific music or background sounds.\",\r\n      \"f) Wine-related jokes upon request ('Alexa, tell me a joke')\",\r\n      \"i) Recommendations to improve the environment (dim the lights, etc.)\"\r\n   ]\r\n}"
+date: 1640176569
